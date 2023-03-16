@@ -82,13 +82,13 @@ export default function Home() {
                 <AiFillGithub />
               </a>
             </div>
-            <div onClick={changeFlipState} className="hover:scale-110 duration-100 cursor-pointer mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div onClick={changeFlipState} className="hover:scale-110 duration-100 cursor-pointer mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96">
               <ReactCardFlip isFlipped={isFlip} flipSpeedBackToFront={0.1}  flipSpeedFrontToBack={0.1}>
-              <div onClick={changeFlipState} className="mx-auto rounded-full md:h-96 md:w-96">
+              <div onClick={changeFlipState} className="mx-auto rounded-full w-60 h-60 md:h-96 md:w-96">
                 <Image src={avatar} layout="fill" objectFit="cover" />
 
                 </div>
-                <div onClick={changeFlipState} className=" mx-auto rounded-full w-80 h-80 md:h-96 md:w-96">
+                <div onClick={changeFlipState} className=" mx-auto rounded-full w-60 h-60 md:h-96 md:w-96">
                 <Image src={profile} layout="fill" objectFit="cover" />
 
                 </div>
