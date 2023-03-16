@@ -21,7 +21,7 @@ import app6 from "../public/app6.png";
 import profile from "../public/profile.png";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true );
   const [isFlip, setIsFlip] = useState (false);
 
   const changeFlipState = () => {
