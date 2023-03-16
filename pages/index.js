@@ -52,7 +52,7 @@ export default function Home() {
                 <button
                   className="hover:scale-110 duration-100 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border shadow-lg-none rounded-md ml-8"
                   href="https://docs.google.com/document/d/1t5FvMmjCgqw5COoSdENWLrM3x_SYCCDFgXfRxsjuYUU/edit?usp=sharing"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Resume
                 </button>
@@ -72,13 +72,13 @@ export default function Home() {
             and let's unleash the full potential of your project!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://www.instagram.com/_marcoulakis/"} target="_blank">
+              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://www.instagram.com/_marcoulakis/"} target="_blank" rel="noopener noreferrer">
                 <AiFillInstagram />
               </a>
-              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://www.linkedin.com/in/marcoulakis/"} target="_blank">
+              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://www.linkedin.com/in/marcoulakis/"} target="_blank" rel="noopener noreferrer">
                 <AiFillLinkedin />
               </a>
-              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://github.com/marcoulakis"} target="_blank">
+              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://github.com/marcoulakis"} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
               </a>
             </div>
@@ -173,7 +173,7 @@ export default function Home() {
             </p>
           </div>
           <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://play.google.com/store/apps/details?id=teleprompter.camera" target="_blank">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://play.google.com/store/apps/details?id=teleprompter.camera" target="_blank" rel="noopener noreferrer">
                 <Image
                   className="rounded-lg object-cover"
                   width={"100%"}
@@ -183,7 +183,7 @@ export default function Home() {
                 />
             </a>
 
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://souls-custody-the-witchs-jail.vercel.app/" target="_blank">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://souls-custody-the-witchs-jail.vercel.app/" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -192,7 +192,7 @@ export default function Home() {
                 src={app2}
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://multiplayerpong.vercel.app" target="_blank">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://multiplayerpong.vercel.app" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -201,7 +201,7 @@ export default function Home() {
                 src={app3}
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/youtube-downloader" target="_blank">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/youtube-downloader" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -210,7 +210,7 @@ export default function Home() {
                 src={app4}
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/file-cryptographer" target="_blank">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/file-cryptographer" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -219,7 +219,7 @@ export default function Home() {
                 src={app5}
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/email-api" target="_blank">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/email-api" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
