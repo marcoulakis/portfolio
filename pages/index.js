@@ -51,8 +51,8 @@ export default function Home() {
               <li>
                 <button
                   className="hover:scale-110 duration-100 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border shadow-lg-none rounded-md ml-8"
-                  href="https://docs.google.com/document/d/1t5FvMmjCgqw5COoSdENWLrM3x_SYCCDFgXfRxsjuYUU/edit?usp=sharing"
-                  target="_blank" rel="noopener noreferrer"
+                  onClick={()=>window.open("./CV-Marcoulakis.pdf", "_blank")}
+                  rel="noopener noreferrer"
                 >
                   Resume
                 </button>
