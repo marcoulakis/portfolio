@@ -182,8 +182,7 @@ export default function Home() {
                   src={app1}
                 />
             </a>
-
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://souls-custody-the-witchs-jail.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/myWallet" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -201,7 +200,7 @@ export default function Home() {
                 src={app3}
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/youtube-downloader" target="_blank" rel="noopener noreferrer">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://souls-custody-the-witchs-jail.vercel.app/" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -209,8 +208,8 @@ export default function Home() {
                 layout="responsive"
                 src={app4}
               />
-            </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/file-cryptographer" target="_blank" rel="noopener noreferrer">
+            </a>  
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/youtube-downloader" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -219,7 +218,7 @@ export default function Home() {
                 src={app5}
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/email-api" target="_blank" rel="noopener noreferrer">
+            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/file-cryptographer" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
