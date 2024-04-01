@@ -51,7 +51,7 @@ export default function Home() {
               <li>
                 <button
                   className="hover:scale-110 duration-100 bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border shadow-lg-none rounded-md ml-8"
-                  onClick={()=>window.open("./CV-Marcoulakis.pdf", "_blank")}
+                  onClick={() => window.open("./CV-Marcoulakis.pdf", "_blank")}
                   rel="noopener noreferrer"
                 >
                   Resume
@@ -67,49 +67,78 @@ export default function Home() {
               Developer and CS Student.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Developer offering expert solutions for programming<br/>
-            and app development needs. Join me down below<br/>
-            and let's unleash the full potential of your project!
+              Developer offering expert solutions for programming<br />
+              and app development needs. Join me down below<br />
+              and let's unleash the full potential of your project!
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://www.instagram.com/_marcoulakis/"} target="_blank" rel="noopener noreferrer">
+              <a
+                className="hover:scale-110 duration-100"
+                cursor-pointer
+                href={"https://www.instagram.com/_marcoulakis/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
                 <AiFillInstagram />
               </a>
-              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://www.linkedin.com/in/marcoulakis/"} target="_blank" rel="noopener noreferrer">
+              <a
+                className="hover:scale-110 duration-100"
+                cursor-pointer
+                href={"https://www.linkedin.com/in/marcoulakis/"}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
                 <AiFillLinkedin />
               </a>
-              <a className="hover:scale-110 duration-100" cursor-pointer href={"https://github.com/marcoulakis"} target="_blank" rel="noopener noreferrer">
+              <a
+                className="hover:scale-110 duration-100"
+                cursor-pointer
+                href={"https://github.com/marcoulakis"}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
                 <AiFillGithub />
               </a>
             </div>
-            <div onClick={changeFlipState} className="hover:scale-110 duration-100 cursor-pointer mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96">
-              <ReactCardFlip isFlipped={isFlip} flipSpeedBackToFront={0.1}  flipSpeedFrontToBack={0.1}>
-              <div onClick={changeFlipState} className="mx-auto rounded-full w-60 h-60 md:h-96 md:w-96">
-                <Image src={avatar} layout="fill" objectFit="cover" />
-
+            <div
+              onClick={changeFlipState}
+              className="hover:scale-110 duration-100 cursor-pointer mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-10 md:h-96 md:w-96"
+            >
+              <ReactCardFlip
+                isFlipped={isFlip}
+                flipSpeedBackToFront={0.1}
+                flipSpeedFrontToBack={0.1}
+              >
+                <div
+                  onClick={changeFlipState}
+                  className="mx-auto rounded-full w-60 h-60 md:h-96 md:w-96"
+                >
+                  <Image src={avatar} layout="fill" objectFit="cover" alt="Apple-designed avatar of Marcoulakis" />
                 </div>
-                <div onClick={changeFlipState} className=" mx-auto rounded-full w-60 h-60 md:h-96 md:w-96">
-                <Image src={profile} layout="fill" objectFit="cover" />
-
+                <div
+                  onClick={changeFlipState}
+                  className=" mx-auto rounded-full w-60 h-60 md:h-96 md:w-96"
+                >
+                  <Image src={profile} layout="fill" objectFit="cover" alt="Photo of Marcoulakis" />
                 </div>
               </ReactCardFlip>
             </div>
-
-
           </div>
         </section>
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I was born and currently live in São Paulo, Brazil. Also, when I was 
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-100">
+              I was born and currently live in São Paulo, Brazil. Also, when I was
               younger I grew up in Portugal, where I got passionate about programming.
               I'm a Full-Stack developer, I build, publish and manage apps and products for <span className="text-teal-500">front-end </span>
-              and <span className="text-teal-500">back-end </span> needs. 
-              In addition, I also work with <span className="text-teal-500">database </span> and 
-              <span className="text-teal-500"> AI</span>. I'm currently enrolled in bachelor's 
+              and <span className="text-teal-500">back-end </span> needs.
+              In addition, I also work with <span className="text-teal-500">database </span> and
+              <span className="text-teal-500"> AI</span>. I'm currently enrolled in bachelor's
               degree in computer science, and have finished a technical course in game development.
-
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer from a wide range of services in software development market.
@@ -122,7 +151,7 @@ export default function Home() {
                 App Design
               </h3>
               <p className="py-2">
-                Creating simple and useful designs suited for your 
+                Creating simple and useful designs suited for your
                 needs following core UX and UI design theory.
               </p>
               <h4 className="py-4 text-teal-600">Some Design Tools I Use</h4>
@@ -136,7 +165,7 @@ export default function Home() {
                 Coding Front-End Projects
               </h3>
               <p className="py-2">
-                Building efficient and impactful applications, making 
+                Building efficient and impactful applications, making
                 your project ready to release.
               </p>
               <h4 className="py-4 text-teal-600">Some Front-End Tools I Use</h4>
@@ -149,7 +178,7 @@ export default function Home() {
               <Image src={consulting} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Making Back-End Projects</h3>
               <p className="py-2">
-                Developing the <span className="text-teal-700">backstage</span> part of your app,  
+                Developing the <span className="text-teal-700">backstage</span> part of your app,
                 making it work over the interned using servers.
               </p>
               <h4 className="py-4 text-teal-600">Some Back-End Tools I Use</h4>
@@ -165,66 +194,108 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I have some personal project that I have been working on.
-              Some of them are public  <br/>and available, not just for use, but also for
+              Some of them are public  <br />and available, not just for use, but also for
               open-source community on GitHub.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-100">
               Check some out bellow.
             </p>
           </div>
           <div className=" flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://play.google.com/store/apps/details?id=teleprompter.camera" target="_blank" rel="noopener noreferrer">
-                <Image
-                  className="rounded-lg object-cover"
-                  width={"100%"}
-                  height={"100%"}
-                  layout="responsive"
-                  src={app1}
-                />
+            <a
+              className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer"
+              href="https://play.google.com/store/apps/details?id=teleprompter.camera"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App 1"
+            >
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={app1}
+                alt="App 1"
+              />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/myWallet" target="_blank" rel="noopener noreferrer">
+            <a
+              className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer"
+              href="https://github.com/marcoulakis/myWallet"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App 2"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={app2}
+                alt="App 2"
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://multiplayerpong.vercel.app" target="_blank" rel="noopener noreferrer">
+            <a
+              className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer"
+              href="http://multiplayerpong.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App 3"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={app3}
+                alt="App 3"
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="http://souls-custody-the-witchs-jail.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <a
+              className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer"
+              href="http://souls-custody-the-witchs-jail.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App 4"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={app4}
+                alt="App 4"
               />
-            </a>  
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/youtube-downloader" target="_blank" rel="noopener noreferrer">
+            </a>
+            <a
+              className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer"
+              href="https://github.com/marcoulakis/youtube-downloader"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App 5"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={app5}
+                alt="App 5"
               />
             </a>
-            <a className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer" href="https://github.com/marcoulakis/file-cryptographer" target="_blank" rel="noopener noreferrer">
+            <a
+              className="border shadow-lg rounded-lg basis-1/3 flex-1 hover:scale-110 duration-100 cursor-pointer"
+              href="https://github.com/marcoulakis/file-cryptographer"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="App 6"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={app6}
+                alt="App 6"
               />
             </a>
           </div>
