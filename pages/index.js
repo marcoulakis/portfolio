@@ -146,7 +146,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 hover:scale-110 duration-100">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="Icon of a gallery in 3D" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 App Design
               </h3>
@@ -160,7 +160,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Figma</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 duration-100">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100}  alt="Icon of a hash in 3D" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Coding Front-End Projects
               </h3>
@@ -175,7 +175,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">C# with .NET</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1 hover:scale-110 duration-100">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100}  alt="Icon of a thumps up in 3D" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Making Back-End Projects</h3>
               <p className="py-2">
                 Developing the <span className="text-teal-700">backstage</span> part of your app,
