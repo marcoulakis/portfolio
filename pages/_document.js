@@ -28,6 +28,8 @@ export default function Document() {
             site_name: "Marcoualkis",
           }}
         />
+        <meta name="description" content="Marcoulakis Software Engineer Portfolio" />
+        <meta name="keywords" content="software engineer, portfolio, marcoulakis, marina haru, marina marcoulakis, haru marcoulakis, marina haru marcoulakis" />
       </Head>
       <body className="font-poppins">
         <Main />
